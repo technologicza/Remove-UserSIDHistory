@@ -1,4 +1,7 @@
-﻿$AllSIDUsers = gc .\SIDUsers.txt
+## created by Jean Louw and Chris Bishop
+## Please note that you run this code at your own risk
+ 
+ $AllSIDUsers = gc .\SIDUsers.txt
 
 foreach ($User in $AllSIDUsers){
 
